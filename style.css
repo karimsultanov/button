@@ -23,9 +23,9 @@ body{
     font-size: 22px;
     font-style: italic;
 }
-.btn-hide span{
+.btn-text-hide span{
     visibility: hidden;
 }
-.box-hide{
+.btn-remove{
     visibility: hidden;
 }
