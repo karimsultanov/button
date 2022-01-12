@@ -1,0 +1,31 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, serif;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: aquamarine;
+    font-size: 22px;
+    font-style: italic;
+}
+.btn-hide span{
+    visibility: hidden;
+}
+.box-hide{
+    visibility: hidden;
+}
